@@ -425,13 +425,6 @@ a:hover, a:focus {
   transition: 0.2s ease-in-out;
 }
 
-.home-img:hover {
-  opacity: 0.02;
-  -webkit-transition: 0.2s ease-in-out;
-  -o-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
-}
-
 .content-home .home-text {
   display: none;
 }
