@@ -123,7 +123,7 @@
                               $(data).find("a").attr("href", function (i, val) {
                                   if (val.match(/\.(jpe?g|png|gif)$/)) { 
                                       for (var i = 1; i <= 20; i++) {
-                                          $("#img").append( "<img src='" + val +"'>" );
+                                        $('<img src=" + val + ">').appendTo('#container_selector');
                                       }
                                   } 
                               });
